@@ -14,9 +14,9 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Fira Code Retina"))))
  '(fixed-pitch ((t (:family "Fira Code Retina"))))
- '(org-block ((t (:inherit fixed-pitch :foreground "#e3e3e3" :background "#5c5c5c"))))
- '(org-block-begin-line ((t (:inherit (shadow fixed-pitch)))))
- '(org-block-end-line ((t (:inherit (shadow fixed-pitch)))))
+ '(org-block ((t (:inherit fixed-pitch :extend t :background "RoyalBlue4" :foreground "#e3e3e3"))))
+ '(org-block-begin-line ((t (:inherit fixed-pitch :background "SkyBlue4" :foreground "#e3e3e3"))))
+ '(org-block-end-line ((t (:inherit fixed-pitch :background "SkyBlue4" :foreground "#e3e3e3"))))
  '(org-code ((t (:inherit (shadow fixed-pitch)))))
  '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
  '(org-table ((t (:inherit (org-hide fixed-pitch)))))
